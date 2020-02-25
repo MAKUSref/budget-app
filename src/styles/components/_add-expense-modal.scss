@@ -1,0 +1,76 @@
+.ReactModalPortal > div {
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    transition: opacity 200ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+
+.add-modal {
+    background: $danger-dark;
+    border-radius: $s-size;
+    color: #000;
+    max-width: 30rem;
+    outline: none;
+    padding: $l-size;
+    text-align: center;
+    box-shadow: $shadow-1;
+    color: #fff;
+    font-size: $m-size;
+}
+
+.add-modal__title {
+    color: #fff;
+    font-size: $l-size;
+    margin: 0 0 $m-size 0;
+}
+
+.add-modal__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    margin-bottom: $ml-size;
+    padding: $xs-size;
+}
+
+.add-modal__input::before {
+    content: "Cena";
+    color: #fff;
+    background-color: #000;
+    font-size: $s-size;
+    height: 3000px;
+    width: 3000px;
+}
+
+.add-modal__error-msg {
+    font-weight: bold;
+}
+
+.add-modal__input:focus {
+    outline: none;
+}
+
+.add-modal__buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-modal__button {
+    background-color: #fff;
+    border: none;
+    padding: $s-size $ml-size;
+    font-size: $m-size;
+    
+}

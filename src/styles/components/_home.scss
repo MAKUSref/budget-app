@@ -1,0 +1,74 @@
+.home__sum {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: $shadow-5;
+    padding: $xs-size;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.home__sum h3 {
+    display: flex;
+    align-items: center;
+}
+
+.home__title {
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size;
+}
+
+.home__data {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: $s-size;
+    border-bottom: 1px solid $danger;
+}
+
+//list
+
+.home__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 15rem 0;
+}
+
+.home__list__item {
+    display: flex;
+    box-shadow: $shadow-1;
+    padding: $s-size;
+    margin: $s-size;
+    font-size: $m-size;
+}
+
+.list__number {
+    font-weight: bold;
+    color: $danger;
+    font-size: $ml-size
+}
+
+.home__list__item > * {
+    margin-left: $xs-size;
+    margin-right: $xs-size;
+    display: flex;
+    align-items: center;
+}
+
+.home__list__item__description {
+    flex-wrap: wrap;
+}
+
+.list__item--delete {
+    background-color: transparent;
+    border: none;
+    color: $danger;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.list__item--delete:focus {
+    outline: none;
+}

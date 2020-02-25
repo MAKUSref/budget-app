@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    box-shadow: $shadow-1;
+    justify-content: space-around;
+}
+
+.header__link {
+    font-size: $ml-size;
+    padding: $s-size;
+    color: $danger;
+}
+
+.header__link--active {
+    color: $danger-dark !important;
+}

@@ -1,0 +1,25 @@
+.add-expense {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
+    font-size: $xl-size;
+    color: $danger;
+    background-color: #fff;
+    border: none;
+    padding: $m-size;
+    border-radius: 50%;
+    box-shadow: $shadow-2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin-right: $m-size;
+    cursor: pointer;
+}
+
+.add-expense:focus {
+    outline: none;
+}
+
+.add-expense div {
+    transform: translateY(-25%);
+}

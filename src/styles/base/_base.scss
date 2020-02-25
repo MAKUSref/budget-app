@@ -1,0 +1,42 @@
+// @font-face {
+//     font-family: 'Gabriola';
+//     font-style: normal;
+//     font-weight: normal;
+//     src: local('Gabriola'), url('../fonts/gabriola-cufonfonts-webfont/gabriolaFontDownload.woff') format('woff');
+//     }
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.color-red {
+    color: $danger!important;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+//columns
+
+.c-1 { flex-grow: 1; }
+.c-2 { flex-grow: 2; }
+.c-3 { flex-grow: 3; }
+.c-4 { flex-grow: 4; }
+.c-5 { flex-grow: 5; }
+.c-6 { flex-grow: 6; }
+.c-7 { flex-grow: 7; }
+.c-8 { flex-grow: 8; }
+.c-9 { flex-grow: 9; }
+.c-10 { flex-grow: 10; }
+.c-11 { flex-grow: 11; }
+.c-12 { flex-grow: 12; }
